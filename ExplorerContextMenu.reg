@@ -16,10 +16,10 @@ Windows Registry Editor Version 5.00
 @="Git Gui"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\GitGUI\command]
-@="\"G:\\GitGUI.bat\""
+@="\"G:\\GitWinTools\\GitGUI.bat\""
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\GitLog]
 @="Git Log"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\GitLog\command]
-@="\"G:\\GitLog.bat\""
+@="\"G:\\GitWinTools\\GitLog.bat\""
