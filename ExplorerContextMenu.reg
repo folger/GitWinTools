@@ -1,25 +1,11 @@
 Windows Registry Editor Version 5.00
 
 ;[HKEY_CLASSES_ROOT\Directory\shell\GitGUI]
-;@="Git Gui"
-;
-;[HKEY_CLASSES_ROOT\Directory\shell\GitGUI\command]
-;@="\"G:\\GitGUI.bat\" \"%1\""
-;
-;[HKEY_CLASSES_ROOT\Directory\shell\GitLog]
-;@="Git Log"
-;
-;[HKEY_CLASSES_ROOT\Directory\shell\GitLog\command]
-;@="\"G:\\GitLog.bat\" \"%1\""
+;[HKEY_CLASSES_ROOT\Directory\Background\shell\GitGUI]
+;[HKEY_CLASSES_ROOT\Directory\Background\shell\GitGUI\command]
 
-[HKEY_CLASSES_ROOT\Directory\Background\shell\GitGUI]
-@="Git Gui"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\GitExtension]
+@="Git Extension"
 
-[HKEY_CLASSES_ROOT\Directory\Background\shell\GitGUI\command]
-@="\"G:\\GitWinTools\\GitGUI.bat\""
-
-[HKEY_CLASSES_ROOT\Directory\Background\shell\GitLog]
-@="Git Log"
-
-[HKEY_CLASSES_ROOT\Directory\Background\shell\GitLog\command]
-@="\"G:\\GitWinTools\\GitLog.bat\""
+[HKEY_CLASSES_ROOT\Directory\Background\shell\GitExtension\command]
+@="\"G:\\GitWinTools\\GitExt.bat\""
